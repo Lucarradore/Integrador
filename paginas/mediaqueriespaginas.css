@@ -1,0 +1,360 @@
+@media(max-width:1100px) {
+
+#AcercaDeNosotros{
+    margin-left: 250px;
+}
+
+#AcercaDeNosotros h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#AcercaDeNosotros p{
+    margin-top: -70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info img{
+    display: none;
+}
+
+
+#servicios h2{
+    margin-top: -650px;
+}
+
+#servicios p{
+    margin-left: 320px;
+}
+
+.portada{
+    margin-left: 170px;
+}
+
+.card{
+    margin-left: 370px;
+}
+
+.cardUno{
+    margin-top: 100px;
+    margin-left: 170px;
+}
+
+.contact-info li img{
+    margin-left: 30px;
+}
+
+.mapa{
+    margin-top: 60px;
+    margin-left: 170px;
+}
+
+.slider-frame li{
+    width: 600px;
+
+}
+
+.slider-frame img{
+    width: 600px;
+}
+}
+
+@media(max-width:991px){
+
+#AcercaDeNosotros{
+    margin-left: 120px;
+}
+
+#AcercaDeNosotros h1{
+    width: 400px;
+    margin-left: -120px;
+    font-size: 50px;
+}
+
+#AcercaDeNosotros p{
+    width: 300px;
+    margin-left: -40px;
+}
+
+#servicios h2{
+    font-size: 50px;
+    margin-top: -770px;
+}
+
+#servicios p{
+    width: 300px;
+    margin-left: 50px;
+}
+
+.portada{
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 10px;
+  justify-content: center;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.portada1{
+    margin-top: 400px;
+    margin-left: 0px;
+}
+
+.portada2{
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+#Beneficios h3{
+    font-size: 50px;
+    margin-top: 900px;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+.cardUno{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.cardDos{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.slider-frame{
+    display: none;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+.contact-info{
+    display: none
+}
+
+.mapa {
+    display: none;
+}
+
+}
+
+
+
+@media(max-width: 940px){
+
+    #AcercaDeNosotros{
+        
+    }
+    
+    #AcercaDeNosotros h1{
+        width: 400px;
+        margin-left: 120px;
+        font-size: 50px;
+    }
+    
+    #AcercaDeNosotros p{
+        width: 300px;
+        margin-top: -20px;
+        margin-left: 200px;
+        font-size: 22px;
+    }
+    
+    #servicios h2{
+        font-size: 50px;
+        margin-top: -1400px;
+    }
+    
+    #servicios p{
+        width: 300px;
+        margin-top: -10px;
+        margin-left: 300px;
+        font-size: 22px;
+    }
+    
+    .portada{
+        display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      grid-gap: 10px;
+      justify-content: center;
+        margin-top: 70px;
+        margin-left: 300px;
+    }
+    
+    .portada1{
+        margin-top: 400px;
+        margin-left: 0px;
+    }
+    
+    .portada2{
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    
+    #Beneficios h3{
+        font-size: 50px;
+        margin-top: 900px;
+    }
+    
+    .card{
+        margin-left: 300px;
+    }
+    
+    .cardUno{
+        margin-left: 300px;
+        margin-top: 40px;
+    }
+    
+    .cardDos{
+        margin-left: 300px;
+        margin-top: 40px;
+    }
+    
+    .slider-frame{
+        display: none;
+    }
+    
+    footer{
+        margin-top: 100px;
+    }
+    
+    .contact-info{
+        display: none
+    }
+    
+    .mapa {
+        display: none;
+    }
+    
+    
+    
+
+    .menu ul{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        max-width: 400px;
+        padding-top: 45px;
+        height: 100%;
+        background: #ecf0f3;
+        box-shadow: 0 5px 10px #b0b0b5;
+        z-index: 12;
+        transition: all 0.3s ease;
+      }
+      .menu ul a{
+       display: block;
+       font-size: 23px;
+       width: 100%;
+       margin-top: 30px;
+       box-shadow: none;
+       text-align: center;
+      }
+      .menu ul a:hover:before{
+        box-shadow: none;
+      }
+      nav label.bars{
+        display: block;
+      }
+      #check:checked ~ label.bars{
+        display: none;
+      }
+      #check:checked ~ ul label.cancel{
+        display: block;
+      }
+      #check:checked ~ ul{
+        left: 0;
+      }
+    
+    }
+
+@media(max-width: 560px){
+
+    #AcercaDeNosotros h1{
+        width: 400px;
+        margin-left: -120px;
+        font-size: 50px;
+    }
+    
+    #AcercaDeNosotros p{
+        width: 300px;
+        margin-top: -50px;
+        margin-left: -40px;
+        font-size: 22px;
+    }
+    
+    #servicios h2{
+        font-size: 50px;
+        margin-top: -950px;
+    }
+    
+    #servicios p{
+        width: 300px;
+        margin-top: -10px;
+        margin-left: 50px;
+        font-size: 22px;
+    }
+    
+    .portada{
+        display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      grid-gap: 10px;
+      justify-content: center;
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+    
+    .portada1{
+        margin-top: 400px;
+        margin-left: 0px;
+    }
+    
+    .portada2{
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    
+    #Beneficios h3{
+        font-size: 50px;
+        margin-top: 900px;
+    }
+    
+    .card{
+        margin-left: 50px;
+    }
+    
+    .cardUno{
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    
+    .cardDos{
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    
+    .slider-frame{
+        display: none;
+    }
+    
+    footer{
+        margin-top: 100px;
+    }
+    
+    .contact-info{
+        display: none
+    }
+    
+    .mapa {
+        display: none;
+    }
+    
+    }
+

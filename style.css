@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Poppins:ital@1&display=swap');
+
+:root
+{
+    --white: #f9f9f9;
+    --green: #229395;
+    --green-light: #7acbcd;
+    --black: #36383F;
+    --grey: #85888C;
+    --color1: #FFF ;
+    --color2: #181818 ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #08090D;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./paginas/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.back{
+    padding: 32px 0;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 35px;
+    color: #FFF;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+    --clippy: polygon(0 0, 0 0, 0 100%, 0 100%);
+}
+
+.menu .navbar ul li a:after{
+    content: "";
+    display: block;
+    background: #FFF;
+    width: 90%;
+    margin-top: 3px;
+    height: 3px;
+    clip-path: var(--clippy);
+    transition: clip-path .3s;
+}
+
+.menu .navbar ul li a:hover{
+    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+    
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color:#FFFDFC;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #B7975B;
+}
+
+
+.header-txt{
+    width: 50%;
+}
+
+.header-txt h1{
+    font-size: 105px;
+    line-height: 110px;
+    color: #FEFCFB;
+    margin-bottom: 15px;
+
+}
+
+.header-txt p{
+    font-size: 16px;
+    color: #E0E0E0;
+    margin-bottom: 15px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 45px;
+    background-color: #B7975B;
+    color: #FEFCFB;
+    border-radius: 25px;
+    font-size: 22px;
+
+}
+
+.btn-1:hover{
+    background-color: #786136;
+    color: #FFF;
+}
+
+
+

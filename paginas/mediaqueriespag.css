@@ -1,0 +1,144 @@
+@media(max-width:1100px) {
+    .navbar{
+        
+    }
+    
+
+
+
+    #AcercaDeNosotros{
+        margin-left: 250px;
+    }
+
+    #AcercaDeNosotros h1{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #AcercaDeNosotros p{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-info img{
+        display: none;
+    }
+
+    #servicios p{
+        margin-left: 320px;
+    }
+
+    .portada{
+        margin-left: 170px;
+    }
+
+    .card{
+        margin-left: 370px;
+    }
+
+    .cardUno{
+        margin-top: 100px;
+        margin-left: 170px;
+    }
+
+    .contact-info li img{
+        margin-left: 30px;
+    }
+
+    .mapa{
+        margin-top: -480px;
+        margin-left: 250px;
+    }
+
+    .slider-frame li{
+        width: 600px;
+
+    }
+
+    .slider-frame img{
+        width: 600px;
+    }
+}
+
+@media(max-width:991px){
+
+    #AcercaDeNosotros{
+        margin-left: 120px;
+    }
+
+    #AcercaDeNosotros h1{
+        width: 400px;
+        margin-left: -120px;
+        font-size: 50px;
+    }
+
+    #AcercaDeNosotros p{
+        width: 300px;
+        margin-left: -40px;
+    }
+
+    #servicios h2{
+        font-size: 50px;
+        margin-top: -950px;
+    }
+
+    #servicios p{
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .portada{
+        display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      grid-gap: 10px;
+      justify-content: center;
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+
+    .portada1{
+        margin-top: 400px;
+        margin-left: 0px;
+    }
+
+    .portada2{
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    #Beneficios h3{
+        font-size: 50px;
+        margin-top: 900px;
+    }
+
+    .card{
+        margin-left: 50px;
+    }
+
+    .cardUno{
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    .cardDos{
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    .slider-frame{
+        display: none;
+    }
+
+    
+
+    .contact-info li img{
+        margin-left: 120px;
+    }
+
+    .mapa {
+        display: none;
+    }
+
+}

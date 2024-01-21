@@ -1,0 +1,40 @@
+@keyframes blink{
+    to{
+        background: transparent;
+        opacity:0
+    }
+}
+
+@keyframes typewriter{
+    to{
+       left: 100%;
+    }
+}
+
+.container h1{
+    position: relative;
+    background: linear-gradient( rgba(110, 118, 164, 0.9),rgb(230, 230, 234));
+    background-clip: text;
+    color: transparent;
+}
+
+.container h1::before,
+.container h1::after{
+    content:"";
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.container h1::before{
+    background-color: rgba(0, 8, 51, 0.9);
+    animation:typewriter 1.2s 1.4s steps(23) forwards;
+}
+
+.container h1::after{
+    width: 0.1rem;
+    background: linear-gradient( rgba(110, 118, 164, 0.9),rgb(230, 230, 234));
+    animation:typewriter 1.2s 1.4s steps(23) forwards, blink 0.8s steps(23) infinite;
+}
