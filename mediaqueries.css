@@ -32,11 +32,6 @@
     display: initial;
   }
 
-
-
-
-
-
     .header-txt h1{
         font-size: 60px;
         margin-top: -200px;
@@ -60,3 +55,26 @@
     }
 }
 
+@media(max-width: 768px) {
+  
+  /*body {
+      /*background-size: contain;*/
+
+  .header-txt {
+      width: 100%; 
+  }
+
+  .header-txt h1 {
+      margin-top: 70px;
+      font-size: 60px; 
+      line-height: 70px; 
+  }
+
+  .header-txt p {
+      font-size: 14px; 
+  }
+
+  .btn-1 {
+      font-size: 18px; 
+}
+}

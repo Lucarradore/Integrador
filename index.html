@@ -1,73 +1,232 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/burger/2.0.2/css/burger.min.css" integrity="sha512-7SB0UODNgt+jtyF6epGMc1PTbdS6870ZlZEcgI6S8iOFFYWc2ZBvJSsuavLidMGC+59Cpk0fggoRLV3IpPayZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./mediaqueries.css">
-    <title>Hoteles Carradore</title>
+    <title>Hoteles</title>
 </head>
+
 <body>
-
-    <header class="header">
-        <div class="menu container">
-           
-
-            
-           <div class="back">
-
-            <div class="menu container">
-
-                <a href="#" class="logo">Carradore</a>
-                <input type="checkbox" name="" id="menu"/>
-                <label for="menu">
-                    <img src="./paginas/menu (1).png" class="menu-icono" alt="">
-                </label>
-
-                <nav class="navbar">
-
-                    <ul>
-                        <li><a href="./paginas/sheraton.html">Hotel Carradore Sheraton</a></li>
-                        <li><a href="./paginas/amerian.html">Hotel Carradore Amerian</a></li>
-                        <li><a href="./paginas/jhonson.html">Hotel Carradore Jhonson</a></li>
-                        <li><a href="./paginas/login.html">Log In</a></li>
-                        <li><a href="./paginas/signup.html">Sign Up</a></li>
-                    </ul>
-                </nav>
-
-            </div>
-
-           </div>
-            
-
-
-            
-        </div>
-    
-
-        <div class="header-content container">
-            <div class="header-txt">
-                <h1>Elige el hotel de tus sueños</h1>
-                <p>Junto a nosotros viví tus vacaciones de la mejor manera posible.
-                    Hace de tu experiencia algo inolvidable!
-                </p>
-                <a href="./paginas/login.html" class="btn-1">Comencemos</a>
+    <!-- SECCION P O R T A D A -->
+    <section id="portada">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>HOTEL</h1>
+                    <input type="checkbox" name="" id="click">
+                    <label for="click" class="menu-btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <nav id="nav" class="">
+                        
+                        <ul id="links">
+                            <li><a href="#portada" class="seleccionado" >INICIO</a></li>
+                            <li><a href="#sobremi">ACERCA DE</a></li>
+                            <li><a href="#servicios">SERVICIOS</a></li>
+                            <li><a href="#cards">IMÁGENES</a></li>
+                            <li><a href="#contacto">CONTACTO</a></li>
+                            <li><a href="./paginas/login.html">LOG IN</a></li>
+                            <li><a href="./paginas/signup.html">SIGN UP</a></li>
+                        </ul>
+                    </nav>
+                    
+                    <!-- Icono del menu responsive -->
+                    <div class="redes">
+                        <a href="https://www.facebook.com/profile.php?id=61550067862468&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/lu.carradore?igsh=eDYwbThvbHozMTky"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Sean bienvenidos</p>
+                <h2>A nuestra <span>hostería</span>, dónde pasarán las mejores vacaciones!</h2>
+                <p class="descripcion">Anímense a vivir unas de las mejores experiencias de sus vidas...</p>
+                <a href="#portfolio">Ver Más</a>
             </div>
         </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/pexels-juany-jimenez-torres-2661486.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Acerca De</p>
+            <h2><span>Hotel</span> </h2>
+            <h3>⭐⭐⭐⭐⭐</h3>
+            <p>Vení y hospedate en nuestro hotel de lujo y viví las vacaciones de la mejor manera posible. Disfruta de la vista y de los servicios que tenemos. Enterate de precios ajustados a tus necesidades haciendo "SIGN UP" y no te pierdas la fiesta.</p>
+            <p>Enterate de más leyendo!</p>
+            <div class="contenedor-imagen">
+            <a href="./paginas/signup.html">Seguir la aventura</a>
+        </div>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-utensils"></i></span>
+                <h4>Desayuno</h4>
+                <hr>
+                <p>Este servicio es importante porque agrega comodidad para los huéspedes, mejora la experiencia general de la estadía y puede ser un factor decisivo en la selección de hotel para los viajeros.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-hand-sparkles"></i></span>
+                <h4>Limpieza</h4>
+                <hr>
+                <p>Esto se extiende a cada rincón, desde habitaciones y baños hasta las zonas comunes, moquetas, etc. Por eso el personal de limpieza ha de estar atento a cualquier señal de suciedad, como manchas u olores desagradables.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-wifi"></i></span>
+                <h4>Wi-Fi</h4>
+                <hr>
+                <p>Tienen acceso al Wi-Fi en cualquier zona del hotel. Si hay complicaciones para la conexión del mismo, siempre se puede tratar con el personal. </p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-lock"></i></span>
+                <h4>Seguridad</h4>
+                <hr>
+                <p>Las puertas han de tener las llaves adecuadas, se pueden hacer llamadas de emergencia y se dispone de botiquín médico. El personal también ha de estar preparado para ello y ha de haber un control de acceso.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-car"></i></span>
+                <h4>Estacionamiento</h4>
+                <hr>
+                <p>Servicio completo de gestión de aparcamientos en el hotel. Proporciona servicios de aparcamiento perfectos para los huéspedes, el personal y los proveedores.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Atención al cliente</h4>
+                <hr>
+                <p>Siempre contará con alguien con quien pueda comunicarse para que pueda atender las necesidades y dudas básicas que tenga. También han de poder informarle sobre los alrededores del hotel (tiendas, restaurantes, atracciones, etc.)</p>
+            </div>
+        </div>
+    </section>
+
     
-    </header>
+    <!-- SECCION PORTAFOLIO -->
+    <section id="cards">
+        <h3 class="titulo-seccion">NUESTRAS IMÁGENES</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./img/pexels-iván-rivero-1001965.jpg" alt="">
+                <div class="info">
+                    <h4>Lobby</h4>
+                    <p>Hotel</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/pexels-max-rahubovskiy-6934233.jpg" alt="">
+                <div class="info">
+                    <h4>Baños</h4>
+                    <p>Hotel</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/pexels-pixabay-164595.jpg" alt="">
+                <div class="info">
+                    <h4>Dormitorios</h4>
+                    <p>Hotel</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/baño.jpg" alt="">
+                <div class="info">
+                    <h4>Baños</h4>
+                    <p>Hotel</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/pexels-thorsten-technoman-338504.jpg" alt="">
+                <div class="info">
+                    <h4>Pileta</h4>
+                    <p>Hotel</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/jhonson2.jpg" alt="">
+                <div class="info">
+                    <h4>Dormitorios</h4>
+                    <p>Hotel</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/jhonson4.jpg" alt="">
+                <div class="info">
+                    <h4>Pileta</h4>
+                    <p>Hotel</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/jhonson1.jpg" alt="">
+                <div class="info">
+                    <h4>Pileta</h4>
+                    <p>Hotel</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/jhonson5.jpg" alt="">
+                <div class="info">
+                    <h4>Lobby</h4>
+                    <p>Hotel</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </body>
+    <!-- SECCION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
 
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
 
+    <!-- SECCION FOOTER -->
+    <footer>
 
+        <h4>HOTEL</h4>
+        <p>Derechos de Autor © 2024 | Hostería</p>
 
+    </footer>
 
+    <script src="script.js"></script>
+</body>
 
-
-
-
-
+</html>

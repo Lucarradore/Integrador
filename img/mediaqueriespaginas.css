@@ -1,0 +1,129 @@
+@media(max-width: 1024px) {
+    /* Estilos para tablets */
+    .menu .logo a {
+        font-size: 24px; /* Reducir el tamaño del logo */
+    }
+
+    .menu ul a {
+        font-size: 16px; /* Reducir el tamaño del texto del menú */
+        padding: 8px 12px; /* Ajustar el padding del enlace del menú */
+    }
+
+    .center {
+        font-size: 32px; /* Reducir el tamaño del texto central */
+    }
+
+    .upper,
+    .lower {
+        font-size: 32px; /* Reducir el tamaño del texto */
+    }
+
+    nav label.btn {
+        display: block; /* Mostrar el botón del menú */
+    }
+
+    .bars {
+        display: inline-block; /* Mostrar las barras del menú */
+    }
+
+    #container {
+        padding: 20px 0; /* Ajustar el padding del contenedor */
+    }
+
+    .hero h1 {
+        font-size: 150px; /* Reducir el tamaño del título */
+    }
+
+    .hero-info img {
+        margin-right: 200px; /* Ajustar el margen derecho de las imágenes */
+    }
+
+    .portada,
+    .portada1,
+    .portada2 {
+        margin-left: 150px; /* Ajustar el margen izquierdo de las portadas */
+    }
+
+    #servicios h2 {
+        font-size: 50px; /* Reducir el tamaño del título */
+    }
+
+    #servicios p {
+        margin-left: 350px; /* Ajustar el margen izquierdo del texto */
+    }
+
+    .card,
+    .cardUno,
+    .cardDos {
+        margin-left: 250px; /* Ajustar el margen izquierdo de las tarjetas */
+    }
+
+    h2 {
+        margin-top: -400px; /* Ajustar el margen superior */
+    }
+}
+
+@media(max-width: 768px) {
+    /* Estilos para dispositivos móviles */
+    .menu .logo a {
+        font-size: 20px; /* Reducir el tamaño del logo */
+    }
+
+    .menu ul a {
+        font-size: 14px; /* Reducir el tamaño del texto del menú */
+        padding: 6px 10px; /* Ajustar el padding del enlace del menú */
+    }
+
+    .center {
+        font-size: 24px; /* Reducir el tamaño del texto central */
+    }
+
+    .upper,
+    .lower {
+        font-size: 24px; /* Reducir el tamaño del texto */
+    }
+
+    nav label.btn {
+        display: block; /* Mostrar el botón del menú */
+    }
+
+    .bars {
+        display: inline-block; /* Mostrar las barras del menú */
+    }
+
+    #container {
+        padding: 10px 0; /* Ajustar el padding del contenedor */
+    }
+
+    .hero h1 {
+        font-size: 100px; /* Reducir el tamaño del título */
+    }
+
+    .hero-info img {
+        margin-right: 100px; /* Ajustar el margen derecho de las imágenes */
+    }
+
+    .portada,
+    .portada1,
+    .portada2 {
+        margin-left: 100px; /* Ajustar el margen izquierdo de las portadas */
+    }
+
+    #servicios h2 {
+        font-size: 40px; /* Reducir el tamaño del título */
+    }
+
+    #servicios p {
+        margin-left: 200px; /* Ajustar el margen izquierdo del texto */
+    }
+
+    .card,
+    .cardUno,
+    .cardDos {
+        margin-left: 150px; /* Ajustar el margen izquierdo de las tarjetas */
+    }
+
+    h2 {
+        margin-top: -350px; /* Ajustar el margen superior */
+    }
+}
